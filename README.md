@@ -62,12 +62,6 @@
 
 ---
 
-## 📈 GitHub Stats
-
-![vivajayyy's GitHub stats](https://github-readme-stats.vercel.app/api?username=vivajayyy&count_private=true&show_icons=true&theme=default)
-
----
-
 ## 📬 Contact
 
 - 📧 Email: vivajayyy@gmail.com  
