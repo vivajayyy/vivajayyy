@@ -1,72 +1,116 @@
-<h2>👋 안녕하세요, 저는 Java 백엔드 개발자 이재한입니다</h1>
+<div align="center">
 
-> "단순한 코더가 아니라, 비즈니스와 기술을 잇는 사람"  
+# 이재한 | Backend Developer
 
-<p>
-  개발 실력과 비즈니스 감각을 함께 갖춘 중고신입 백엔드 개발자입니다.
-</p>
+**AI 시대, "무엇을 만들 것인가"를 아는 개발자**
 
----
+[![Gmail](https://img.shields.io/badge/Gmail-vivajayyy@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vivajayyy@gmail.com)
 
-## 💡 About Me
-
-- 👨‍💻 **9년차 경력 기반의 신입 백엔드 개발자**입니다. (기획/마케팅/PM → 개발 전환)
-- 💼 다양한 산업군에서 **기획, 마케팅, 개발까지 아우르는 경험** 보유  
-- 🌱 현재는 **Java + Spring 기반 백엔드 개발자**로 집중 성장 중
-- 🧠 **비즈니스의 흐름을 이해하고 주도할 수 있는 개발자**를 목표로 합니다
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## About Me
 
-**Backend**
-- Java 17, Spring Boot, Spring MVC, JPA, Spring Data JPA, QueryDSL
-- MySQL, PostgreSQL, JWT, OAuth2
+AI가 코드를 작성하는 시대,  
+개발자에게 더 중요해진 건 **"무엇을 왜 만들어야 하는지"** 를 아는 것이라 생각합니다.
 
-**Frontend (기본 대응)**
-- JavaScript, Thymeleaf
+9년간 **기획 → 마케팅 → PM → 개발**을 거치며  
+비즈니스 문제를 정의하고, 요구사항을 설계하고, 직접 구현까지 해본 경험이 있습니다.
 
-**DevOps**
-- Git, GitHub, Docker, Supabase
+지금은 이 경험을 바탕으로 **AI를 도구 삼아 더 빠르게, 더 본질에 집중하며** 개발하고 있습니다.
 
-**ETC**
-- Notion, Figma, Postman  
-- 과거 경험 기반: PHP, CodeIgniter, AWS
+```
+"어제보다 나은 오늘"을 만들기 위해 매일 코드를 씁니다.
+```
 
 ---
 
-## 💼 Experience Highlights
+## Why Me?
 
-- 👨‍💻 웹 개발 경험 (PHP 기반 음악 스트리밍 서비스 전체 리뉴얼 등)
-- 📊 블록체인 거래소/플랫폼의 기술 마케팅과 이벤트 운영 주도
-- 🏗️ **직접 창업(카페 운영)** 경험 → 스마트스토어, 물류/CS, 브랜딩까지 경험
-- 🧾 SI성 프로젝트 기획 및 외주 관리 경험 → 요구사항 분석부터 실현까지 경험
-
----
-
-## 🚀 현재 진행 중인 프로젝트
-
-### 🎮 GameBid (게임 경매 플랫폼)  
-> 게임 아이템, 계정, 굿즈 등을 **경매 방식으로 거래**할 수 있는 유저 중심 플랫폼  
-> **역할**: 백엔드 설계 및 구현 전반 담당 (도메인 모델링, REST API, 이미지 처리 등)  
-> **기술**: Java 17, Spring Boot, JPA, Spring Data JPA, PostgreSQL, Docker, JWT
-
-**주요 기능**
-- 경매 CRUD 기능
-- 이미지 업로드 및 AWS S3 연동
-- 조회수 증가, 종료 시간 기반 정렬, 입찰 로직 구조 설계
-- RESTful API 및 예외 코드 구조 통합 관리
-
-> 🧩 사이드 프로젝트이지만, 실서비스 수준의 아키텍처로 설계 중이며  
-> 테스트 코드, 예외처리, 모듈 분리 등 확장성과 유지보수성을 고려하여 개발 중입니다.
+| AI 시대에 필요한 역량 | 나의 경험 |
+|---------------------|----------|
+| 요구사항 정의 능력 | 9년간 기획/PM으로 수백 건의 요구사항 분석 |
+| 비즈니스 이해력 | 블록체인 거래소, 음악 스트리밍, 직접 창업까지 |
+| 빠른 프로토타이핑 | AI 도구 활용해 1인 풀스택 프로젝트 완성 |
+| 커뮤니케이션 | 기술-비기술 팀 사이 브릿지 역할 경험 |
 
 ---
 
-## 📬 Contact
+## AI-Assisted Development
 
-- 📧 Email: vivajayyy@gmail.com  
-- 📝 이력서 & 포트폴리오는 요청 시 별도 전달드릴 수 있습니다.
+**Claude Code**를 활용해 기획부터 배포까지 1인 개발한 프로젝트입니다.
+
+> AI는 도구일 뿐, 방향을 정하는 건 사람입니다.  
+> 기획력과 도메인 이해가 있어야 AI를 제대로 활용할 수 있다고 믿습니다.
+
+### Kidsroad (키즈로드)
+> 부모를 위한 아이 동반 축제/행사 큐레이션 서비스
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+
+- PRD 작성 → DB 설계 → 구현 → 배포까지 AI와 협업
+- TourAPI 연동 자동화 파이프라인
+- Claude AI 기반 블로그 분석으로 데이터 보강
+- Kakao OAuth 인증, 실시간 필터링
+
+🔗 [Live](https://kidsroad.vercel.app) · [GitHub](https://github.com/vivajayyy/kidsroad)
 
 ---
 
+## Projects
 
+### GameBid (게임 경매 플랫폼)
+> 게임 아이템/계정/굿즈 경매 거래 플랫폼
+
+![Java](https://img.shields.io/badge/Java_17-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![JPA](https://img.shields.io/badge/JPA-59666C?style=flat-square&logo=hibernate&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+- 도메인 모델링 및 REST API 설계/구현
+- 경매 로직, 입찰 처리, 종료 시간 기반 정렬
+- AWS S3 이미지 업로드
+- 예외 처리 구조 설계
+
+---
+
+## Tech Stack
+
+**Main** : Java, Spring Boot, JPA, PostgreSQL, MySQL
+
+**Sub** : Next.js, React, TypeScript, Tailwind CSS, Supabase
+
+**Tools** : Docker, Git, GitHub, Claude Code
+
+---
+
+## Career Journey
+
+```
+2015 ─── 웹 개발 (PHP) ─── 음악 스트리밍 서비스 전체 리뉴얼
+   │
+2018 ─── PM / 마케팅 ─── 블록체인 거래소, 기술 마케팅 주도  
+   │
+2021 ─── 창업 (카페) ─── 브랜딩부터 물류/CS까지 직접 운영
+   │
+2023 ─── 백엔드 개발 ─── Java/Spring 전환, AI 활용 개발
+   │
+ Now ─── 성장 중 ─── 매일 코드 작성, 꾸준한 학습
+```
+
+---
+
+<div align="center">
+
+### 🔥 Growth Mindset
+
+**"완벽한 준비란 없다. 시작하고, 부딪히고, 성장한다."**
+
+새로운 기술을 두려워하지 않습니다.  
+AI 시대의 변화를 기회로 삼아, 매일 조금씩 더 나은 개발자가 되고 있습니다.
+
+</div>
