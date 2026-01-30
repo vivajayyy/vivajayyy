@@ -44,16 +44,17 @@ AI가 코드를 작성하는 시대,
 > AI는 도구일 뿐, 방향을 정하는 건 사람입니다.  
 > 기획력과 도메인 이해가 있어야 AI를 제대로 활용할 수 있다고 믿습니다.
 
+---
+
 ### Diffnote (디프노트)
 > IDE의 Diff 기능을 비개발자도 쉽게 사용할 수 있는 웹 기반 문서 비교 서비스
 
-![Status](https://img.shields.io/badge/Status-Phase_2_진행중-blue?style=flat-square)
-![MVP](https://img.shields.io/badge/MVP-Complete-success?style=flat-square)
+**📌 MVP 완료 · Phase 2 고도화 진행중**
 
 ![Next.js](https://img.shields.io/badge/Next.js_15-000?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 **🔐 Privacy-First Architecture**
 - 100% 클라이언트 사이드 처리 - 파일이 서버에 전송되지 않음
@@ -85,7 +86,7 @@ AI가 코드를 작성하는 시대,
 ### Kidsroad (키즈로드)
 > 부모를 위한 아이 동반 축제/행사 큐레이션 서비스
 
-![Status](https://img.shields.io/badge/Status-Complete-success?style=flat-square)
+**✅ 개발 완료**
 
 ![Next.js](https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=next.js)
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -101,13 +102,12 @@ AI가 코드를 작성하는 시대,
 
 ---
 
-## Projects
+## Team Project
 
 ### GameBid (게임 경매 플랫폼)
 > 게임 아이템/계정/굿즈 경매 거래 플랫폼
 
-![Status](https://img.shields.io/badge/Status-MVP_Complete-success?style=flat-square)
-![Team](https://img.shields.io/badge/Team-5명_(BE_담당)-purple?style=flat-square)
+**✅ MVP 완료 · 팀 프로젝트 (5인)**
 
 ![Java](https://img.shields.io/badge/Java_17-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
@@ -121,6 +121,8 @@ AI가 코드를 작성하는 시대,
 - 경매 로직, 입찰 처리, 종료 시간 기반 정렬
 - AWS S3 이미지 업로드
 - 예외 처리 구조 설계
+
+*🔒 Organization Private Repository*
 
 ---
 
