@@ -20,9 +20,9 @@ AI가 코드를 작성하는 시대,
 
 지금은 이 경험을 바탕으로 **AI를 도구 삼아 더 빠르게, 더 본질에 집중하며** 개발하고 있습니다.
 
-```
+\`\`\`
 "어제보다 나은 오늘"을 만들기 위해 매일 코드를 씁니다.
-```
+\`\`\`
 
 ---
 
@@ -92,11 +92,34 @@ AI가 코드를 작성하는 시대,
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-- PRD 작성 → DB 설계 → 구현 → 배포까지 AI와 협업
-- TourAPI 연동 자동화 파이프라인
-- Claude AI 기반 블로그 분석으로 데이터 보강
-- Kakao OAuth 인증, 실시간 필터링
+**🤖 AI-Powered Data Pipeline**
+- TourAPI(한국관광공사)에서 전국 축제/행사 데이터 자동 수집
+- Claude Haiku로 블로그 분석 → 부모 체크리스트 정보 추출
+- Rate Limiter를 통한 API 비용 최적화 (50 req/min)
+- 지능형 재분석 정책으로 불필요한 AI 호출 최소화
+
+**👨‍👩‍👧 Parent-Focused Filtering**
+- 연령별 필터링 (0-2세 / 3-5세 / 6-9세 / 10세+)
+- 부모 체크리스트: 유모차, 주차, 수유실, 무료 여부
+- AI가 is_kid_friendly 자동 판단 - 성인 전용 행사 필터링
+
+**🔄 Automated Data Collection**
+- Vercel Cron으로 주기적 데이터 수집 자동화
+- p-limit을 활용한 동시성 제어 (병렬 처리 3개)
+- Telegram Bot 알림으로 수집 결과 실시간 모니터링
+- 실행 로그 DB 저장으로 수집 이력 추적
+
+**🔐 Authentication & Storage**
+- Kakao OAuth 소셜 로그인
+- Supabase Auth + PostgreSQL
+- Server Actions로 북마크 기능 구현
+
+**🎨 Modern UI/UX**
+- Server Components 기반 SSR 최적화
+- 반응형 디자인 (데스크톱 우선, 모바일 지원)
+- D-Day 뱃지, 연령 태그 등 정보 시각화
 
 🔗 [Live](https://kidsroad.vercel.app) · [GitHub](https://github.com/vivajayyy/kidsroad)
 
@@ -138,7 +161,7 @@ AI가 코드를 작성하는 시대,
 
 ## Career Journey
 
-```
+\`\`\`
 2015 ─── 웹 개발 (PHP) ─── 음악 스트리밍 서비스 전체 리뉴얼
    │
 2018 ─── PM / 마케팅 ─── 블록체인 거래소, 기술 마케팅 주도  
@@ -148,7 +171,7 @@ AI가 코드를 작성하는 시대,
 2023 ─── 백엔드 개발 ─── Java/Spring 전환, AI 활용 개발
    │
  Now ─── 성장 중 ─── 매일 코드 작성, 꾸준한 학습
-```
+\`\`\`
 
 ---
 
