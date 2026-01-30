@@ -79,7 +79,7 @@ AI가 코드를 작성하는 시대,
 - Playwright E2E 테스트
 - Husky + lint-staged 자동화
 
-🔗 [Live](https://diffnote.vercel.app) · [GitHub](https://github.com/vivajayyy/diffnote)
+🔗 [Live](https://diffnote.net) · [GitHub](https://github.com/vivajayyy/diffnote) 
 
 ---
 
