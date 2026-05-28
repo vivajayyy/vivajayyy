@@ -18,71 +18,88 @@ AI가 코드를 작성하는 시대,
 약 10년간 **개발 → 기획 → 마케팅 → 창업 → 다시 개발**을 거치며  
 비즈니스 문제를 정의하고, 요구사항을 설계하고, 직접 구현까지 해본 경험이 있습니다.
 
-지금은 이 경험을 바탕으로 **AI를 도구 삼아 더 빠르게, 더 본질에 집중하며** 개발하고 있습니다.
+지금은 이 경험을 바탕으로 **AI를 도구이자 핵심 기술로 활용해**  
+B2B SaaS · B2C 서비스 · 모바일 앱 · 실시간 자막 시스템 · AX 콘텐츠 파이프라인 등  
+서로 다른 도메인의 프로덕트를 1인 또는 소수로 빠르게 만들고 배포하고 있습니다.
 
-> "어제보다 나은 오늘"을 만들기 위해 매일 코드를 씁니다.
+> **AX(AI Transformation)** 시대의 **FDE(Forward Deployed Engineer)** 처럼,  
+> 고객 문제를 정의하고 실행 가능한 솔루션을 끝까지 책임지는 개발자를 지향합니다.
 
 ---
 
 ## Why Me?
 
-| AI 시대에 필요한 역량 | 나의 경험 |
+| AI/AX 시대에 필요한 역량 | 나의 경험 |
 |---------------------|----------|
-| 요구사항 정의 능력 | 9년간 기획/PM으로 수백 건의 요구사항 분석 |
+| 고객 문제 정의 | 9년간 기획/PM으로 도메인 분석 및 요구사항 설계 |
 | 비즈니스 이해력 | 블록체인 거래소, 음악 스트리밍, 직접 창업까지 |
-| 빠른 프로토타이핑 | AI 도구 활용해 1인 풀스택 프로젝트 완성 |
+| AI를 활용한 빠른 프로토타이핑 | Claude Code · Codex 기반 1인 풀스택 개발 사이클 운영 |
+| AI를 제품 안에 녹이기 | Claude API · OpenAI Realtime API로 실제 가치 창출 |
+| 풀스택 실행력 | Python · TypeScript · Next.js · Expo · Supabase · Railway |
 | 커뮤니케이션 | 기술-비기술 팀 사이 브릿지 역할 경험 |
 
 ---
 
-## AI-Assisted Development
+## AI를 핵심 기술로 활용한 프로덕트
 
-**Claude Code**를 활용해 기획부터 배포까지 개발한 프로젝트입니다.
+> AI를 단순 보조 도구가 아니라 **제품의 핵심 가치**로 만든 사례입니다.
 
-> AI는 도구일 뿐, 방향을 정하는 건 사람입니다.  
-> 기획력과 도메인 이해가 있어야 AI를 제대로 활용할 수 있다고 믿습니다.
+### AXBrief (AX 콘텐츠 미디어)
+> AX(AI Transformation) 케이스 데이터를 자동 수집하고, AI로 고퀄리티 콘텐츠를 재생산하여 미디어 사이트로 발행하는 서비스
+
+**🚧 MVP 개발 진행 중**
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=next.js)
+![Turborepo](https://img.shields.io/badge/Turborepo-EF4444?style=flat-square&logo=turborepo&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+
+**🎯 핵심 가치**
+- 한국 기업 의사결정자·실무자에게 실질적으로 도움 되는 **AX 도입 사례·가이드** 큐레이션
+- 글로벌(McKinsey·AWS·HBR) + 한국(NIPA·AI타임스 등) 다중 소스로 정부 지원사업·업종별 도입 팁·규제 가이드를 자동 발굴
+
+**🤖 AI 파이프라인**
+- RSS 실시간 감지 + 일·주 단위 배치 크롤링 병행
+- AI 구조화 → AI 품질 검수 → 사람 최종 승인의 **휴먼-인-더-루프** 파이프라인
+- 콘텐츠 유형별 비중(케이스 50% / 한국 특화 30% / 트렌드 20%) 자동 균형 관리
+
+**🏗️ 인프라**
+- pnpm + Turborepo 모노레포 (`apps/web` · `workers/collector` · `workers/generator`)
+- Next.js + NextAuth 기반 관리자·미디어 사이트
+- Railway 워커 + Vercel 프론트로 비용·운영 최적화
+
+🔗 [Live](https://axbrief.vercel.app) · [GitHub](https://github.com/vivajayyy/axbrief)
 
 ---
 
-### Diffnote (디프노트)
-> IDE의 Diff 기능을 비개발자도 쉽게 사용할 수 있는 웹 기반 문서 비교 서비스
+### StageCaption AI (현장 자막 OS)
+> AV · LED · OBS 운영자를 위한 AI 실시간 자막 송출 OS — V1 기획 저장소
 
-**📌 MVP 완료 · Phase 2 고도화 진행중**
+**📐 기획 · 아키텍처 설계 단계**
 
-![Next.js](https://img.shields.io/badge/Next.js_15-000?style=flat-square&logo=next.js)
-![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![OpenAI](https://img.shields.io/badge/OpenAI_Realtime-412991?style=flat-square&logo=openai&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**🔐 Privacy-First Architecture**
-- 100% 클라이언트 사이드 처리 - 파일이 서버에 전송되지 않음
-- DOMPurify를 활용한 XSS 방지
+**🎯 포지셔닝**
+- Jodio 같은 QR/PWA 통역 플랫폼과 정면 가격 경쟁하지 않고, **현장 LED·OBS·AV 운영 자막 OS** 로 차별화
+- 교회·컨퍼런스 현장 파일럿을 전제로 한 PRD · 경쟁사 분석 · V1 아키텍처 · 현장 테스트 계획 수립
 
-**📄 Multi-Format Support**
-- TXT, PDF (pdf.js), DOCX (mammoth.js) 파일 파싱
-- 드래그 앤 드롭 업로드, 최대 10MB 지원
+**🧪 검증 우선 개발**
+- OpenAI Realtime API 연동 전에 **mock caption broadcast** 부터 완성
+- 모든 기능은 mock harness · 자동 테스트 · 브라우저 확인 · 현장 체크리스트 중 하나 이상의 검증 근거를 남김
+- "Vibe coding은 무검증 프로토타이핑이 아니다" 라는 운영 원칙 명문화
 
-**⚡ Performance Optimization**
-- Web Worker를 활용한 메인 스레드 블로킹 방지
-- react-window 가상 스크롤링으로 대용량 파일 처리
-- 동적 import로 번들 사이즈 최적화
+**📋 산출물**
+- PRD · 경쟁사 분석 · V1 아키텍처 · 에이전트 운영 모델 · 하네스 엔지니어링 · 현장 테스트 계획
 
-**🔍 Diff Engine**
-- Google diff-match-patch 알고리즘
-- 줄/단어/문자 단위 비교 지원
-- Side-by-Side & Unified 뷰 모드
-
-**🧪 Testing & Quality**
-- Vitest + React Testing Library (Unit/Integration)
-- Playwright E2E 테스트
-- Husky + lint-staged 자동화
-
-🔗 [Live](https://diffnote.net) · [GitHub](https://github.com/vivajayyy/diffnote) 
+🔗 [GitHub](https://github.com/vivajayyy/stagecaption-ai-v1-plan)
 
 ---
 
 ### Kidsroad (키즈로드)
-> 부모를 위한 아이 동반 축제/행사 큐레이션 서비스
+> 부모를 위한 아이 동반 축제·행사 큐레이션 서비스
 
 **✅ 개발 완료**
 
@@ -93,40 +110,132 @@ AI가 코드를 작성하는 시대,
 ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 **🤖 AI-Powered Data Pipeline**
-- TourAPI(한국관광공사)에서 전국 축제/행사 데이터 자동 수집
-- Claude Haiku로 블로그 분석 → 부모 체크리스트 정보 추출
-- Rate Limiter를 통한 API 비용 최적화 (50 req/min)
-- 지능형 재분석 정책으로 불필요한 AI 호출 최소화
+- TourAPI(한국관광공사)에서 전국 축제·행사 데이터 자동 수집
+- Claude Haiku로 블로그 분석 → 부모 체크리스트 정보(주차·유모차·수유실) 추출
+- Rate Limiter로 API 비용 최적화 (50 req/min) · 지능형 재분석 정책으로 불필요한 AI 호출 최소화
 
 **👨‍👩‍👧 Parent-Focused Filtering**
 - 연령별 필터링 (0-2세 / 3-5세 / 6-9세 / 10세+)
-- 부모 체크리스트: 유모차, 주차, 수유실, 무료 여부
-- AI가 is_kid_friendly 자동 판단 - 성인 전용 행사 필터링
+- AI가 `is_kid_friendly` 자동 판단 — 성인 전용 행사 필터링
 
 **🔄 Automated Data Collection**
 - Vercel Cron으로 주기적 데이터 수집 자동화
-- p-limit을 활용한 동시성 제어 (병렬 처리 3개)
-- Telegram Bot 알림으로 수집 결과 실시간 모니터링
-- 실행 로그 DB 저장으로 수집 이력 추적
-
-**🔐 Authentication & Storage**
-- Kakao OAuth 소셜 로그인
-- Supabase Auth + PostgreSQL
-- Server Actions로 북마크 기능 구현
-
-**🎨 Modern UI/UX**
-- Server Components 기반 SSR 최적화
-- 반응형 디자인 (데스크톱 우선, 모바일 지원)
-- D-Day 뱃지, 연령 태그 등 정보 시각화
+- p-limit 동시성 제어(병렬 3개) · Telegram Bot 실시간 모니터링
 
 🔗 [Live](https://kidsroad.vercel.app) · [GitHub](https://github.com/vivajayyy/kidsroad)
+
+---
+
+### Haru Ending (하루엔딩)
+> 육아 후 나만의 시간을 위한 AI 자기계발 모바일 앱
+
+**🚧 MVP 개발 진행 중**
+
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
+
+**🤖 안전한 AI 통합**
+- Anthropic API 키를 클라이언트에 두지 않고 **Supabase Edge Function**에서 secret으로 관리
+- 하루 회고 · 루틴 · 집중 · 커뮤니티 흐름을 AI가 보조
+
+**🧪 하네스 엔지니어링**
+- MVP 전까지 **fixture · 순수 domain 함수 · 외부 서비스 adapter 경계** 부터 설계
+- Supabase 미설정 상태에서도 부팅 가능한 구조(의도된 실패 표면화)
+- `npm run verify`로 lint · typecheck · unit test 일괄 검증
+
+**📱 운영**
+- Expo Router · LAN/Tunnel 모드 분리 운영 스크립트
+- 시나리오 하네스로 fixture별 핵심 화면 검증
+
+🔗 [GitHub](https://github.com/vivajayyy/haru-ending)
+
+---
+
+## AI 에이전트 기반 개발 사이클 (Harness Engineering)
+
+> AI가 코드를 잘 쓰게 하려면 **사람이 운영 규칙을 잘 설계**해야 합니다.  
+> 모든 프로젝트에 `CLAUDE.md` · `AGENTS.md`, `TASKS.md`·`ROADMAP.md`, 검증 하네스가 항상 함께 있습니다.
+
+### Rooton (멀티테넌트 SaaS 납품 플랫폼)
+> 고객사별 차이를 `tenants/`와 환경변수로 분리하는 멀티테넌트 백엔드·프론트엔드
+
+**🚧 운영 중**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.11-3776AB?style=flat-square&logo=python&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js_14-000?style=flat-square&logo=next.js)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+
+**🏗️ 아키텍처**
+- FastAPI + SQLAlchemy + Alembic 마이그레이션 · Next.js 14 App Router
+- 고객사별 `tenants/` 프로파일 + `deployments/` 배포 템플릿 — **코드 fork 없이** 차이 분리
+- Railway(백엔드) + Vercel(프론트) 멀티 환경
+
+**🤝 Forward Deployed 스타일**
+- 고객사별 납품 아키텍처를 코드 컨벤션 레벨에서 명문화 (`docs/CUSTOMER_DELIVERY_ARCHITECTURE.md`)
+- Claude Code 에이전트(`backend-architect` · `frontend-developer` · `task-orchestrator` 등)와 Task Master 명령으로 작업 자동화
+
+🔗 [Live](https://rooton.vercel.app) · [GitHub](https://github.com/vivajayyy/rooton)
+
+---
+
+### MarkUI (팀용 라이브 피드백 SaaS)
+> 라이브 제품 화면 위에서 피드백을 남기고, 그 피드백을 구조화된 작업으로 전환하는 팀 우선 SaaS
+
+**🚧 MVP 개발 진행 중**
+
+![Next.js](https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+
+**🧱 데이터 모델**
+- `Workspace > Project > Page > Feedback` 4-tier 구조
+- 스크린샷 · PPT · 메일 기반 피드백 루프를 줄이는 것이 핵심 가치
+
+**🧪 검증 자동화**
+- Vitest · Playwright E2E · Playwright Visual Regression
+- Supabase SSR · Server Actions 기반 풀스택
+- "사람이 방향을 잡고, 에이전트가 작은 단위로 실행한다" 운영 모델
+
+🔗 [Live](https://markui-nine.vercel.app) · [GitHub](https://github.com/vivajayyy/markui)
+
+---
+
+### Diffnote (디프노트)
+> IDE의 Diff 기능을 비개발자도 쉽게 사용할 수 있는 웹 기반 문서 비교 서비스
+
+**📌 MVP 완료 · Phase 2 고도화 진행 중**
+
+![Next.js](https://img.shields.io/badge/Next.js_15-000?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**🔐 Privacy-First Architecture**
+- 100% 클라이언트 사이드 처리 — 파일이 서버에 전송되지 않음
+- DOMPurify를 활용한 XSS 방지
+
+**📄 Multi-Format Support**
+- TXT · PDF (pdf.js) · DOCX (mammoth.js) 파일 파싱
+
+**⚡ Performance Optimization**
+- Web Worker로 메인 스레드 블로킹 방지
+- react-window 가상 스크롤링 · 동적 import 번들 최적화
+
+**🔍 Diff Engine**
+- Google diff-match-patch · Side-by-Side & Unified 뷰
+
+🔗 [Live](https://diffnote.net) · [GitHub](https://github.com/vivajayyy/diffnote)
 
 ---
 
 ## Team Project
 
 ### GameBid (게임 경매 플랫폼)
-> 게임 아이템/계정/굿즈 경매 거래 플랫폼
+> 게임 아이템·계정·굿즈 경매 거래 플랫폼
 
 **✅ MVP 완료 · 팀 프로젝트 (5인)**
 
@@ -138,7 +247,7 @@ AI가 코드를 작성하는 시대,
 **👥 팀 구성:** 디자이너 1 · 프론트엔드 2 · 백엔드 2
 
 **담당 역할 (Backend)**
-- 도메인 모델링 및 REST API 설계/구현
+- 도메인 모델링 및 REST API 설계·구현
 - 경매 로직, 입찰 처리, 종료 시간 기반 정렬
 - AWS S3 이미지 업로드
 - 예외 처리 구조 설계
@@ -149,11 +258,17 @@ AI가 코드를 작성하는 시대,
 
 ## Tech Stack
 
-**Main** : Java, Spring Boot, JPA, PostgreSQL, MySQL
+**Main** : Java, Spring Boot, JPA, PostgreSQL, MySQL, Python (FastAPI)
 
-**Sub** : Next.js, React, TypeScript, Tailwind CSS, Supabase
+**Frontend / Mobile** : Next.js (App Router), React 19, TypeScript, Tailwind, Expo / React Native
 
-**Tools** : Docker, Git, GitHub, Claude Code
+**Data / Infra** : Supabase (Postgres · Auth · Edge Functions · RLS), Railway, Vercel (Functions · Cron · Blob), Prisma, Alembic
+
+**AI** : Claude API (Sonnet · Haiku), OpenAI Realtime API, Anthropic via Supabase Edge Functions
+
+**AI 개발 도구** : Claude Code, Codex CLI, Superpowers, Task Master, MCP
+
+**Quality** : Vitest, Playwright (E2E · Visual), Pytest, Husky, Turborepo
 
 ---
 
@@ -163,9 +278,9 @@ AI가 코드를 작성하는 시대,
 |:---:|:---|:---|
 | **2015** | 웹 개발 (PHP) | 음악 스트리밍 서비스 전체 리뉴얼 |
 | **2018** | PM / 마케팅 | 블록체인 거래소, 기술 마케팅 주도 |
-| **2021** | 창업 (카페) | 브랜딩부터 물류/CS까지 직접 운영 |
+| **2021** | 창업 (카페) | 브랜딩부터 물류·CS까지 직접 운영 |
 | **2023** | 백엔드 개발 | Java/Spring 전환, AI 활용 개발 |
-| **Now** | 성장 중 | 매일 코드 작성, 꾸준한 학습 |
+| **Now** | AI 시대 풀스택 · FDE 지향 | 7개+ 프로젝트 1인·소수 운영 |
 
 ---
 
